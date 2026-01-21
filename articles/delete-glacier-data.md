@@ -3,7 +3,7 @@ title: "Glacierのデータを全部消す"
 emoji: "📀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "Glacier", "Python"]
-published: false
+published: true
 ---
 # はじめに
 Glacierは良いサービスである。しかし、そのデータを削除するのは非常に面倒なことである。データの削除はAWSマネジメントコンソール上で実施することができず、CLIやAPIを用いた削除要求が必要である。また、データが残っているとボールト(バケットのようなもの)の削除ができない。Glacierからデータを削除するということは実に面倒なことなのである。
